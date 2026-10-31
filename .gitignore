@@ -1,0 +1,11 @@
+# secrets and per-run state
+*.pem
+*.pem.tmp
+ids.env
+ssh_config
+
+# generated / local logs (contain the unmasked public IP)
+report.html
+build_log.txt
+test_log.txt
+run1_backup/

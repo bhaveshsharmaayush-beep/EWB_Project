@@ -1,0 +1,8 @@
+### HOST: ewb-app-a | 2026-10-31T12:52:41Z
+$ ssh ewb-app-a 'ping -c 4 -W 2 10.20.1.10'
+PING 10.20.1.10 (10.20.1.10) 56(84) bytes of data.
+
+--- 10.20.1.10 ping statistics ---
+4 packets transmitted, 0 received, 100% packet loss, time 3118ms
+
+[exit 1]

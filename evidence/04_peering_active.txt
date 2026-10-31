@@ -1,0 +1,11 @@
+--------------------------------------------
+|       DescribeVpcPeeringConnections      |
++----------------+-------------------------+
+|  AccepterCidr  |  10.20.0.0/16           |
+|  AccepterVpc   |  vpc-06d2fcab330b757a9  |
+|  Id            |  pcx-0a6ff838f30d41730  |
+|  Name          |  ewb-a-b-peer           |
+|  RequesterCidr |  10.10.0.0/16           |
+|  RequesterVpc  |  vpc-02731d27d93f39c4e  |
+|  Status        |  active                 |
++----------------+-------------------------+

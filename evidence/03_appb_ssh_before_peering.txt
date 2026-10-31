@@ -1,0 +1,4 @@
+### HOST: ewb-app-b | 2026-10-31T12:51:32Z
+$ ssh ewb-app-b 'hostname'
+Connection timed out during banner exchange
+[exit 255]

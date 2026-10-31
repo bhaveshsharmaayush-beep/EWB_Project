@@ -1,0 +1,12 @@
+### HOST: ewb-app-a | 2026-10-31T12:52:56Z
+$ ssh ewb-app-a 'ping -c 4 10.20.1.10'
+PING 10.20.1.10 (10.20.1.10) 56(84) bytes of data.
+64 bytes from 10.20.1.10: icmp_seq=1 ttl=127 time=0.192 ms
+64 bytes from 10.20.1.10: icmp_seq=2 ttl=127 time=0.197 ms
+64 bytes from 10.20.1.10: icmp_seq=3 ttl=127 time=0.250 ms
+64 bytes from 10.20.1.10: icmp_seq=4 ttl=127 time=0.294 ms
+
+--- 10.20.1.10 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3098ms
+rtt min/avg/max/mdev = 0.192/0.233/0.294/0.041 ms
+[exit 0]

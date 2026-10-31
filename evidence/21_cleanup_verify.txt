@@ -1,0 +1,11 @@
+### 2026-10-31T12:54:36Z  Region ap-south-1, filter tag Project=EWB-VPC-Peering
+Instances (not terminated): 0
+EBS volumes:                0
+Elastic IPs (any):          0
+Key pair ewb-lab:           0
+VPCs:                       0
+Subnets:                    0
+Route tables:               0
+Internet gateways:          0
+Security groups:            0
+Peering (active/pending):   0

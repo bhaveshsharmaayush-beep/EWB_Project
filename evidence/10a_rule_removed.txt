@@ -1,0 +1,16 @@
+### Removing App-B inbound ICMP echo rule from 10.10.2.10/32 on sg-02ffbb97276e85651
+{
+    "Return": true,
+    "RevokedSecurityGroupRules": [
+        {
+            "SecurityGroupRuleId": "sgr-05533444d1544f1b2",
+            "GroupId": "sg-02ffbb97276e85651",
+            "IsEgress": false,
+            "IpProtocol": "icmp",
+            "FromPort": 8,
+            "ToPort": 0,
+            "CidrIpv4": "10.10.2.10/32",
+            "Description": "App-A echo request"
+        }
+    ]
+}

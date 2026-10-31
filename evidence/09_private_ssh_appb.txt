@@ -1,0 +1,5 @@
+### HOST: ewb-app-b | 2026-10-31T12:52:32Z
+$ ssh ewb-app-b 'echo "Logged in to $(hostname) as $(whoami)"; hostname -I'
+Logged in to ip-10-20-1-10.ap-south-1.compute.internal as ec2-user
+10.20.1.10 
+[exit 0]

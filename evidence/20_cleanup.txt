@@ -1,0 +1,40 @@
+
+### 12:53:26Z  Terminate instances: i-03260c4b0906d1ab8 i-05853e589b8b14dce i-07a5ef7328dc8182a
+i-07a5ef7328dc8182a	shutting-down
+i-03260c4b0906d1ab8	shutting-down
+i-05853e589b8b14dce	shutting-down
+All three instances terminated
+
+### 12:54:00Z  Delete key pair ewb-lab
+True
+
+### 12:54:02Z  Delete peer routes
+ewb-rt-a-private 10.20.0.0/16 removed
+ewb-rt-b-private 10.10.0.0/16 removed
+ewb-rt-a-public 10.20.0.0/16 removed
+
+### 12:54:07Z  Delete peering pcx-0a6ff838f30d41730
+True
+
+### 12:54:09Z  Delete security groups
+sg-0c00f587850a4d498
+sg-02ffbb97276e85651
+sg-08592da618a7838f0
+
+### 12:54:14Z  Delete subnets
+subnet-0ab66f669901c2a1a deleted
+subnet-0d472a371f713c1c3 deleted
+subnet-04f07ce89fc29d57f deleted
+
+### 12:54:20Z  Delete custom route tables
+rtb-0dcff225d81e53af3 deleted
+rtb-01d35208e1131e3dd deleted
+rtb-0554dcc5d61311b8e deleted
+
+### 12:54:25Z  Detach and delete internet gateway igw-038a952531790354a
+igw-038a952531790354a deleted
+
+### 12:54:29Z  Delete VPCs
+vpc-02731d27d93f39c4e deleted
+vpc-06d2fcab330b757a9 deleted
+ids.env archived to evidence/00_resource_ids.txt
