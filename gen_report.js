@@ -37,7 +37,6 @@ const pre = (f, label) => `<div class="fig"><div class="cap">${label}</div>${ren
 const idsFile = fs.existsSync(path.join(dir, 'ids.env')) ? path.join(dir, 'ids.env') : path.join(dir, 'evidence', '00_resource_ids.txt');
 const ids = Object.fromEntries(fs.readFileSync(idsFile, 'utf8').trim().split('\n').map(l => l.split('=')));
 const NAME = process.env.STUDENT || 'Ayush Sharma';
-const BATCH = process.env.BATCH || '____________';
 
 const html = `<!doctype html><html><head><meta charset="utf-8"><title>${NAME} - EWB VPC Peering</title><style>
 body{font-family:Segoe UI,Arial,sans-serif;font-size:10.5pt;color:#1a1a1a;margin:0}
@@ -59,7 +58,6 @@ p{line-height:1.45}
 <p style="font-size:12pt;margin-bottom:10mm">EWB Cloud Labs &middot; AWS Architect Associate &middot; Project 01</p>
 <table style="width:70%">
 <tr><th>Name</th><td>${NAME}</td></tr>
-<tr><th>Batch</th><td>${BATCH}</td></tr>
 <tr><th>Project title</th><td>AWS VPC Peering</td></tr>
 <tr><th>Region</th><td>Asia Pacific (Mumbai) &ndash; ap-south-1 (AZ ap-south-1a)</td></tr>
 <tr><th>Completion date</th><td>31 October 2026</td></tr>
