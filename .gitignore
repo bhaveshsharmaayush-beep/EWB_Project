@@ -9,3 +9,4 @@ report.html
 build_log.txt
 test_log.txt
 run1_backup/
+.claude/
